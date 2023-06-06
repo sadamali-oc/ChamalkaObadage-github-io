@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Waiting for the Sunrise';
+    src: url(WaitingfortheSunrise-Regular.ttf);
+    font-family: 'Tenor Sans';
+    src: url(TenorSans-Regular.ttf);
+
+}
+
+body {
+    background-color: black;
+}
+
+.profilephoto {
+
+    position: absolute;
+    width: 360px;
+    height: 350px;
+    border-radius: 330px;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: rgba(163, 5, 100, 0.92);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 2%;
+    margin-left: 5%;
+    float: right;
+    font-family: 'Tenor Sans';
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover,
+.contact a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.thought {
+    position: absolute;
+    width: 483px;
+    height: 53px;
+
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 40%;
+    /* identical to box height */
+
+
+    color: #DAE1E2;
+}
+
+
+
+.contact {
+
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 20%;
+    font-family: 'Tenor Sans';
+
+}
+
+.contact a {
+    color: rgba(163, 5, 100, 0.92);
+    text-decoration: none;
+}
+
+.heyname {
+    color: rgba(163, 5, 100, 0.92);
+
+    align-items: left;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 40px;
+    font-family: 'Tenor Sans';
+}
+
+
